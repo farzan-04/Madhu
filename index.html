@@ -16,6 +16,7 @@ body{margin:0;background:#100b12;color:var(--cream);font-family:Georgia,'Times N
 .grain{position:absolute;inset:0;opacity:.12;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.3'/%3E%3C/svg%3E")}
 .hero-content{position:relative;z-index:1;text-align:center;width:min(680px,100%);animation:fadeup 1.4s ease both}
 .kicker{font:700 10px/1.8 system-ui,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#ffd3e0}
+.kicker{display:inline-flex;align-items:center;gap:12px}.kicker:before,.kicker:after{content:"";display:block;width:24px;height:1px;background:var(--rose)}
 h1{font-size:clamp(43px,10vw,82px);font-weight:400;line-height:.98;letter-spacing:-2px;margin:20px 0 18px;text-shadow:0 3px 25px #0008}
 h1 em{color:#ff8caf;font-weight:400}
 .lead{font-size:clamp(15px,3.8vw,19px);line-height:1.8;color:#f7e4eb;max-width:520px;margin:0 auto}
